@@ -1,19 +1,19 @@
 Summary:	Online dictionary
 Name:		gnome-dictionary
-Version:	3.9.0
+Version:	3.14.0
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-dictionary/3.9/%{name}-%{version}.tar.xz
-# Source0-md5:	4a82e6d7f3d2bfd65056bae87ca9d5f6
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-dictionary/3.14/%{name}-%{version}.tar.xz
+# Source0-md5:	f66ead0df647e368529434a60262e77c
 URL:		http://live.gnome.org/GnomeUtils
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	gnome-doc-utils
 BuildRequires:	gtk+3-devel
 BuildRequires:	gtk-doc
 BuildRequires:	intltool
+BuildRequires:	itstool
 BuildRequires:	libtool
 BuildRequires:	pkg-config
 Requires(post,postun):	glib-gio-gsettings
