@@ -1,11 +1,11 @@
 Summary:	Online dictionary
 Name:		gnome-dictionary
-Version:	3.14.0
+Version:	3.14.1
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-dictionary/3.14/%{name}-%{version}.tar.xz
-# Source0-md5:	f66ead0df647e368529434a60262e77c
+# Source0-md5:	8c381246e832701c3b5168a6e5b79406
 URL:		http://live.gnome.org/GnomeUtils
 BuildRequires:	autoconf
 BuildRequires:	automake
